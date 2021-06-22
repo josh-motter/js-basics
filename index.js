@@ -1,12 +1,17 @@
 
-// Performing a task
-function greet(name, lastName) {
-    console.log('Hello ' + name + ' ' + lastName);
-}
+let x = 10;
+let y = 3;
 
-// Calculating a value
-function square(number) {
-    return number * number;
-}
+// console.log(x = y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
+// console.log(x ** y);
 
-console.log(square(2));
+//Increment (++)
+// console.log(x++);
+// console.log(x);
+
+//Decrement (--)
+console.log(--x);
