@@ -1,21 +1,12 @@
 
-// 1 = 00000001
-// 2 = 00000010
-// 3 = 00000011
-// R = 00000000
+let a = 'red';
+let b = 'blue';
 
-// Read, Write, Execute
-// 00000100
-// 00000010
-// 00000001
+let c = a;
+a = b;
+c = b;
 
-const readPermission = 4;
-const writePermission = 2;
-const executePermission = 1;
+console.log(a);
+console.log(b);
 
-let myPermission = 0;
-myPermission = myPermission | readPermission | writePermission;
 
-let message = (myPermission & readPermission) ? 'yes' : 'no';
-
-console.log(message);
